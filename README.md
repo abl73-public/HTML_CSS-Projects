@@ -1,4 +1,4 @@
 # HTML_CSS-Projects
 
-This repository contains files that show the syntax of the HTML language.
+This repository contains files that show the syntax of the HTML and CSS language.
  
