@@ -421,7 +421,7 @@ media (min-width: 1200px) {
 
 /* The Close Button */
 .close {
-    color: white;
+    color: #FFFFFF;
     position: absolute;
     top: 35px;
     right: 25px;

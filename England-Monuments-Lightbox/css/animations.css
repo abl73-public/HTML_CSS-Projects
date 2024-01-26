@@ -1,4 +1,3 @@
-
 /* animations.css */
 
 /*-----------------------------
@@ -17,7 +16,7 @@
 
 .menu li {
     background-color: #012169;
-    color:  #FFFFFF;
+    color: #FFFFFF;
     display: inline-block;
     margin: 0% auto;
     position: relative;
@@ -33,7 +32,7 @@
 }
 
 .menu li:hover {
-    color:  #FFFFFF;
+    color: #FFFFFF;
     background-color: #c8102e;
 }
 
@@ -123,7 +122,8 @@ This also avoids a block-level bug
     left: 0;
     padding-left: 20px;
     padding-right: 20px;
-    justify-content: center; /* for centering text inside .photo-overlay */
+    justify-content: center;
+    /* for centering text inside .photo-overlay */
     align-items: center;
     background: rgba(0, 0, 0, 0.5);
 }
@@ -154,7 +154,11 @@ This also avoids a block-level bug
 }
 
 .photo:hover img {
-    transform: scale{1.1};
+    transform: scale {
+        1.1
+    }
+
+    ;
 }
 
 /*-------------------------------
@@ -195,7 +199,8 @@ This also avoids a block-level bug
     left: 0;
     padding-left: 20px;
     padding-right: 20px;
-    justify-content: center; /* for centering text inside .photo-overlay */
+    justify-content: center;
+    /* for centering text inside .photo-overlay */
     align-items: center;
     background: rgba(0, 0, 0, 0.5);
 }
@@ -226,5 +231,9 @@ This also avoids a block-level bug
 }
 
 .video:hover iframe {
-    transform: scale{1.1};
+    transform: scale {
+        1.1
+    }
+
+    ;
 }
