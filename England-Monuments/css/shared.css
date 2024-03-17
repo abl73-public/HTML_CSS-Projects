@@ -85,7 +85,7 @@ p {
 }
 
 .heading-padding {
-    padding-bottom: 40px;
+    padding-bottom: 10px;
 }
 
 section {
@@ -217,11 +217,11 @@ section {
 }
 
 #contact {
-    /* background-color: #c8102e;*/
+    background: rgba(200, 16, 46, 0.2);
 }
 
 .booking {
-    width: 60%;
+    width: 100%;
     padding: 10px;
     border: 2px solid #c8102e;
     border-radius: 8px;
@@ -276,10 +276,21 @@ section {
     background-color: #c8102e;
     box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, 0.3);
     font-family: "Raleway", sans-serif;
+    text-align: center;
+    line-height: 40px;
+    font-size: 40px;
+}
+
+.booking input {
+    width: 450px;
+    height: 40px;
+    font-size: 20px;
+    margin: 10px auto;
+
 }
 
 .booking input [type="text"] {
-    font-size: 15px;
+    font-size: 50px;
     outline: none;
     font-weight: 600;
     color: #8D8E8F;
@@ -287,10 +298,10 @@ section {
     padding: 2% 1% 2% 7%;
     width: 80%;
     border-top: 1px solid #090B0D;
-    border-right: 2px solid #424549;
-    border-bottom: 2px solid #424549;
+    border-right: 1px solid #424549;
+    border-bottom: 1px solid #424549;
     border-left: 1px solid #090B0D;
-    margin: 10px 1em;
+    margin: 10px 10px;
     border-radius: 7px;
     background: #13161B;
     box-shadow: inset 0px 3px 0px 0px rgba(5, 5, 5, 0.15);
